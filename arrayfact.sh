@@ -10,6 +10,6 @@ do
                 fact=`expr $n \* $fact`
                 n=`expr $n - 1`
         done
-        echo "Factorial of $i is :$fact"
+        echo "Factorials of $i is :$fact"
         i=`expr $i + 1`
 done
